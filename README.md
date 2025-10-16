@@ -1,14 +1,7 @@
 <img src="https://socialify.git.ci/mmelokuhlemaphisa/Shopping-List-API/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Shopping-List-API" width="640" height="320" />
 
-
-## Shopping-List-API
-Perfect — here’s your **updated and complete README.md** with all **five CRUD endpoints** included (Add, Get All, Get by ID, Update, Delete).
-This version also includes a clear example of how to test each endpoint.
-
 ---
-
-
-## 🧾 Item Manager API
+## 🧾 Shopping-List-API
 
 A simple Node.js + TypeScript API that manages a list of shopping items in memory.  
 It allows you to **add**, **view**, **update**, and **delete** items using clean REST API routes.  
@@ -25,6 +18,31 @@ Perfect for learning **HTTP servers**, **TypeScript modules**, and **CRUD operat
 - ❌ Delete items  
 - 🧠 TypeScript-based, no database required  
 
+---
+## Steps of  set up  Node.js + TypeScript for Shopping List API project
+
+* Create Your Project Folder
+* Initialize Node.js 
+     * npm init -y
+* Install Required Packages 
+     * npm install typescript ts-node nodemon @types/node --save-dev
+* Create TypeScript Configuration File
+     * npx tsc --init
+* Then open tsconfig.json and make sure the following options are set:
+  
+```bash
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
+
+```
 ---
 
 ## 🧩 Project Structure
@@ -48,23 +66,22 @@ project/
 
 ## 📦 Installation
 
-```bash
-# Clone the repository
-git clone https://github.com/mmelokuhlemaphisa/Shopping-List-API.git
+* Open vs code.
+* On welcome page click on Clone Git repository.
+* Past the repository URL (https://github.com/mmelokuhlemaphisa/Shopping-List-API.git) then press enter.
+* Choose a local folder where you want to save project.
+* Click Open.
+* Use Terminal to install npm and run dev
+   * npm install
+   * npm run dev
 
-# Navigate into the project
-cd item-manager-api
-
-# Install dependencies
-npm install
-````
 
 ---
 
 ## 🧠 Scripts
 
 ```bash
-# Run in development mode (auto-reload)
+
 npm run dev
 
 ```
