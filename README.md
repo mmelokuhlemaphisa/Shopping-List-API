@@ -1,14 +1,14 @@
 <img src="https://socialify.git.ci/mmelokuhlemaphisa/Shopping-List-API/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Shopping-List-API" width="640" height="320" />
 
 
-# Shopping-List-API
+## Shopping-List-API
 Perfect — here’s your **updated and complete README.md** with all **five CRUD endpoints** included (Add, Get All, Get by ID, Update, Delete).
 This version also includes a clear example of how to test each endpoint.
 
 ---
 
-```md
-# 🧾 Item Manager API
+
+## 🧾 Item Manager API
 
 A simple Node.js + TypeScript API that manages a list of shopping items in memory.  
 It allows you to **add**, **view**, **update**, and **delete** items using clean REST API routes.  
@@ -29,8 +29,7 @@ Perfect for learning **HTTP servers**, **TypeScript modules**, and **CRUD operat
 
 ## 🧩 Project Structure
 
-```
-
+```md
 project/
 ├── src/
 │   ├── models/
@@ -213,7 +212,7 @@ npm run dev
 ## 💬 Author
 
 Created by **[Melokuhle Maphisa]**
-Feel free to contribute or improve this simple API.
+
 
 ```
 
