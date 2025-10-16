@@ -1,10 +1,10 @@
-import { Item } from "../type/Items";
+import { Item } from "../models/Items";
 
 let items: Item[] = [];
 
 let currentId = 0;
 
-export const getSongs = (): Item[] => {
+export const getItems = (): Item[] => {
   return items;
 };
 
@@ -27,3 +27,5 @@ export const addItem = (
   items.push(newItem);
   return newItem;
 };
+
+
