@@ -32,14 +32,13 @@ Perfect for learning **HTTP servers**, **TypeScript modules**, and **CRUD operat
 ```md
 project/
 ├── src/
+│   ├── controller/
+│   │   └── Items.ts        
 │   ├── models/
-│   │   └── Items.ts          # Defines the Item interface
-│   ├── utils/
-│   │   └── response.ts       # JSON response helpers
-│   ├── data/
-│   │   └── itemsData.ts      # In-memory data and logic
+│   │   └── Items.ts         # Defines the Item interface
+│   │     
 │   ├── routes/
-│   │   └── itemsRoutes.ts    # Route handling for /items endpoints
+│   │   └── Items.ts    # Route handling for /items endpoints
 │   └── server.ts             # HTTP server setup
 └── package.json
 
