@@ -60,9 +60,9 @@ export const itemsRoutes = async (
             res.end(JSON.stringify({ error: "Name is required" }));
             return;
           }
-          if (typeof quantity !== "number" || isNaN(quantity)) {
+          if (!quantity || typeof quantity !== "string") {
             res.writeHead(400, { "content-type": "application/json" });
-            res.end(JSON.stringify({ error: "Quantity must be a number" }));
+            res.end(JSON.stringify({ error: "Quantity must be a string" }));
             return;
           }
           if (

@@ -1,6 +1,6 @@
 import { Item } from "../models/Items";
 
-let items: Item[] = []; // assuming you already have a similar in-memory array
+let items: Item[] = []; 
 
 let currentId = 1;
 
@@ -14,7 +14,7 @@ export function getItemById(id: number) {
 
 export const addItem = (
   name: string,
-  quantity: number,
+  quantity: string,
   purchased: boolean
 ): Item => {
   const newItem: Item = {

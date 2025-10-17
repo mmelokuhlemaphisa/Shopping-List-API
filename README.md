@@ -100,7 +100,7 @@ npm run dev
 ```json
 {
   "name": "Apples",
-  "quantity": 5,
+  "quantity": "5",
   "purchased": false
 }
 ```
@@ -111,7 +111,7 @@ npm run dev
 {
   "id": 0,
   "name": "Apples",
-  "quantity": 5,
+  "quantity": "5",
   "purchased": false
 }
 ```
@@ -127,8 +127,8 @@ npm run dev
 
 ```json
 [
-  { "id": 0, "name": "Apples", "quantity": 5, "purchased": false },
-  { "id": 1, "name": "Bananas", "quantity": 3, "purchased": true }
+  { "id": 0, "name": "Apples", "quantity": "5", "purchased": false },
+  { "id": 1, "name": "Bananas", "quantity": "3", "purchased": true }
 ]
 ```
 
@@ -145,7 +145,7 @@ npm run dev
 {
   "id": 1,
   "name": "Bananas",
-  "quantity": 3,
+  "quantity": "3",
   "purchased": true
 }
 ```
@@ -168,7 +168,7 @@ npm run dev
 ```json
 {
   "name": "Oranges",
-  "quantity": 10,
+  "quantity": "10",
   "purchased": true
 }
 ```
@@ -179,7 +179,7 @@ npm run dev
 {
   "id": 1,
   "name": "Oranges",
-  "quantity": 10,
+  "quantity": "10",
   "purchased": true
 }
 ```
