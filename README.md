@@ -11,12 +11,12 @@ Perfect for learning **HTTP servers**, **TypeScript modules**, and **CRUD operat
 
 ## 🚀 Features
 
-- ✅ Add new items  
-- 📋 Get all items  
-- 🔍 Get a single item by ID  
-- ✏️ Update existing items  
-- ❌ Delete items  
-- 🧠 TypeScript-based, no database required  
+- Add new items  
+- Get all items  
+- Get a single item by ID  
+- Update existing items  
+- Delete items  
+- TypeScript-based, no database required  
 
 ---
 ## Steps of  set up  Node.js + TypeScript for Shopping List API project
@@ -45,7 +45,7 @@ Perfect for learning **HTTP servers**, **TypeScript modules**, and **CRUD operat
 ```
 ---
 
-## 🧩 Project Structure
+##  Project Structure
 
 ```md
 project/
@@ -64,7 +64,7 @@ project/
 
 ---
 
-## 📦 Installation
+## Installation
 
 * Open vs code.
 * On welcome page click on Clone Git repository.
@@ -78,7 +78,7 @@ project/
 
 ---
 
-## 🧠 Scripts
+## Scripts
 
 ```bash
 
@@ -88,9 +88,9 @@ npm run dev
 
 ---
 
-## 🧪 API Endpoints
+## API Endpoints
 
-### 🟩 Add an Item
+### Add an Item
 
 **Endpoint:** `POST /items`
 **Description:** Add a new item to the list.
@@ -118,7 +118,7 @@ npm run dev
 
 ---
 
-### 🟦 Get All Items
+### Get All Items
 
 **Endpoint:** `GET /items`
 **Description:** Retrieve all items in the list.
@@ -134,7 +134,7 @@ npm run dev
 
 ---
 
-### 🟨 Get a Single Item by ID
+### Get a Single Item by ID
 
 **Endpoint:** `GET /items/:id`
 **Example:** `/items/1`
@@ -158,7 +158,7 @@ npm run dev
 
 ---
 
-### 🟧 Update an Item
+### Update an Item
 
 **Endpoint:** `PUT /items/:id`
 **Description:** Update an existing item’s name, quantity, or purchased status.
@@ -186,7 +186,7 @@ npm run dev
 
 ---
 
-### 🟥 Delete an Item
+### Delete an Item
 
 **Endpoint:** `DELETE /items/:id`
 **Example:** `/items/0`
@@ -205,7 +205,7 @@ npm run dev
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
 * **Node.js** – Server runtime
 * **TypeScript** – Static typing
@@ -214,7 +214,7 @@ npm run dev
 
 ---
 
-## 🧠 Example Workflow
+## Example Workflow
 
 1. **Add** a new item with `POST /items`
 2. **View all** items with `GET /items`
@@ -225,7 +225,7 @@ npm run dev
 ---
 
 
-## 💬 Author
+## Author
 
 Created by **[Melokuhle Maphisa]**
 
